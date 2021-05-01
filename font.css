@@ -6,3 +6,7 @@
     src: url(fonts/Comfortaa-Regular.ttf);
     src: url(fonts/Comfortaa-SemiBold.ttf);
 }
+
+div {
+    font-family: Comfortaa;
+}
