@@ -1,3 +1,11 @@
 #menuBarContainer {
     box-shadow: 0px 20px 75px #EF4444;
 }
+
+#sp_container {
+    box-shadow: 0px 0px 50px #000000;
+}
+
+#sp_pic {
+    box-shadow: 0px 0px 25px #0000000;
+}
