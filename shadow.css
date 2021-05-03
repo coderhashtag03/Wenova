@@ -7,5 +7,6 @@
 }
 
 #sp_pic {
+    z-index: 10;
     box-shadow: 0px 0px 30px #0000000;
 }
