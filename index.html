@@ -9,7 +9,10 @@
     />
     <link href="font.css" rel="stylesheet" />
     <link href="shadow.css" rel="stylesheet" />
+    <link href="disability.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/pictures/favicon.ico">
     <title>Wenova</title>
+    <script src="/index.js" type="text/javascript"></script>
   </head>
 
   <body class="bg-gray-700">
@@ -58,7 +61,8 @@
             <a href="https://soundcloud.com/virtual-riot" target="_blank">
             <button
               class="w-72 py-3 px-5 mr-5 mb-5 rounded-full text-white text-base text-center align-middle bg-yellow-500 hover:bg-yellow-700 focus:outline-none focus:ring-3 focus:ring-gray-100"
-              id="spotify"
+              id="soundcloud"
+              disabled
             >
               Follow on Soundcloud
             </button>
@@ -66,15 +70,17 @@
             <a href="https://www.youtube.com/user/OfficialVirtualRiot" target="_blank">
             <button
               class="w-72 py-3 px-5 mr-5 mb-5 rounded-full text-white text-base text-center align-middle bg-red-600 hover:bg-red-800 focus:outline-none focus:ring-3 focus:ring-gray-100"
-              id="spotify"
+              id="youtube"
+              disabled
             >
               Subscribe on YouTube
             </button>
             </a>
-            <a href="VR_Heavy_Bass_Design.txt" download>
+            <a id="download_id" href="VR_Heavy_Bass_Design.txt" download>
             <button
               class="w-72 py-3 px-5 mr-5 mb-5 rounded-full text-black text-base text-center align-middle bg-white hover:bg-black hover:text-white focus:outline-none focus:ring-3 focus:ring-white"
-              id="spotify"
+              id="download_button"
+              disabled
             >
               Download
             </button>
